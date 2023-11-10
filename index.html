@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favico.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
+        integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input placeholder="Enter a city name" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <img src="./images/rain.png" class="weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="./images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/wind.png">
+                    <div>
+                        <p class="wind">15km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+<script>
+    do {
+        console.log(i);
+        i++;
+    }
+    while (i < 11)
+</script>
+
+</html>
